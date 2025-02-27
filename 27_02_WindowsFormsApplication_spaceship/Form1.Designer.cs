@@ -28,17 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.picturBox_spaceship01 = new System.Windows.Forms.PictureBox();
             this.button_up = new System.Windows.Forms.Button();
             this.button_right = new System.Windows.Forms.Button();
             this.button_left = new System.Windows.Forms.Button();
             this.button_down = new System.Windows.Forms.Button();
+            this.FPS = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picturBox_spaceship01)).BeginInit();
             this.SuspendLayout();
             // 
             // picturBox_spaceship01
             // 
-            this.picturBox_spaceship01.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.picturBox_spaceship01.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.picturBox_spaceship01.BackColor = System.Drawing.Color.Transparent;
             this.picturBox_spaceship01.BackgroundImage = global::_27_02_WindowsFormsApplication_spaceship.Properties.Resources.upscalemedia_transformed;
             this.picturBox_spaceship01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -56,6 +60,7 @@
             this.button_up.TabIndex = 1;
             this.button_up.Text = "▲";
             this.button_up.UseVisualStyleBackColor = true;
+            this.button_up.Click += new System.EventHandler(this.button_up_Click);
             // 
             // button_right
             // 
@@ -85,6 +90,12 @@
             this.button_down.TabIndex = 4;
             this.button_down.Text = "▼";
             this.button_down.UseVisualStyleBackColor = true;
+            this.button_down.Click += new System.EventHandler(this.button_down_Click);
+            // 
+            // FPS
+            // 
+            this.FPS.Interval = 10;
+            this.FPS.Tick += new System.EventHandler(this.FPS_Tick);
             // 
             // Form1
             // 
@@ -112,6 +123,7 @@
         private System.Windows.Forms.Button button_right;
         private System.Windows.Forms.Button button_left;
         private System.Windows.Forms.Button button_down;
+        private System.Windows.Forms.Timer FPS;
     }
 }
 
