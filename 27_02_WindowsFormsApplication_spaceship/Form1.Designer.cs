@@ -44,11 +44,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picturBox_spaceship01.BackColor = System.Drawing.Color.Transparent;
-            this.picturBox_spaceship01.BackgroundImage = global::_27_02_WindowsFormsApplication_spaceship.Properties.Resources.upscalemedia_transformed;
-            this.picturBox_spaceship01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picturBox_spaceship01.Location = new System.Drawing.Point(698, 96);
+            this.picturBox_spaceship01.BackgroundImage = global::_27_02_WindowsFormsApplication_spaceship.Properties.Resources.leftspaceship;
+            this.picturBox_spaceship01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picturBox_spaceship01.Location = new System.Drawing.Point(484, 184);
             this.picturBox_spaceship01.Name = "picturBox_spaceship01";
-            this.picturBox_spaceship01.Size = new System.Drawing.Size(266, 157);
+            this.picturBox_spaceship01.Size = new System.Drawing.Size(270, 270);
             this.picturBox_spaceship01.TabIndex = 0;
             this.picturBox_spaceship01.TabStop = false;
             // 

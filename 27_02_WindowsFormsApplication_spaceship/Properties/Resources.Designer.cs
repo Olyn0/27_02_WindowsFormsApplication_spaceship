@@ -63,6 +63,26 @@ namespace _27_02_WindowsFormsApplication_spaceship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap downspaceship {
+            get {
+                object obj = ResourceManager.GetObject("downspaceship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leftspaceship {
+            get {
+                object obj = ResourceManager.GetObject("leftspaceship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap R {
             get {
                 object obj = ResourceManager.GetObject("R", resourceCulture);
@@ -83,9 +103,19 @@ namespace _27_02_WindowsFormsApplication_spaceship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap upscalemedia_transformed {
+        internal static System.Drawing.Bitmap rightspaceship {
             get {
-                object obj = ResourceManager.GetObject("upscalemedia-transformed", resourceCulture);
+                object obj = ResourceManager.GetObject("rightspaceship", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upspaceship {
+            get {
+                object obj = ResourceManager.GetObject("upspaceship", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
